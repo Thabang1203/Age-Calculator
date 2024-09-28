@@ -1,0 +1,74 @@
+/*BASIC STYLING FOR THE ENTIRE BODY*/
+
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+
+}
+
+/* SYLING CONTAINER THAT HOLDS THE FORM AND THE ANSWER*/
+
+.container {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0, 0,1);
+}
+/*STYLING FOR THE TITTLE*/
+
+h1 {
+    text-align: center;
+}
+/* STYLING FOR THE FORM ELEMENTS*/
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* STYLING FOR THE LABEL ABOVE THE DATE INPUT*/
+
+label {
+    margin-bottom: 10px; 
+}
+
+/* STYLING FOR THE INPUT DATE FIELD*/
+
+input {
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* STYLING FOR THE BUTTON*/
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #f4f4f4;
+    border: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* STYLING FOR BUTTON HOVER EFFECT*/
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/*STYLING FOR THE ANSWER TEXT*/
+
+#Answer {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    text-align: center;
+   
+}
